@@ -236,7 +236,7 @@ body {
         align-items: center;
         flex-direction: row;
         justify-content: flex-start;
-        background-color: red;
+        background-color: green;
     }
 
     .title_elements {
@@ -445,6 +445,215 @@ body {
     /* Ajustes para pantallas pequeñas */
 
     /* ... Ajustes para pantallas pequeñas ... */
+
+    .contenedor-menu {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: red;
+    }
+
+    .title_elements {
+        display: flex;
+        align-content: baseline;
+        flex-direction: row;
+        padding: 50px;
+        align-items: center;
+        /* margin-right: 250px; */
+    }
+
+    .title_elements img{
+        /* margin-left: 20px; */
+        /* font-size: 60px; */
+        zoom: 50%;
+        color: white;
+    }
+
+    .title_elements p a {
+        font-size: 25px;
+        margin-left: 35px;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        font-family: 'Amethysta', serif;
+    }
+
+    #lista-nav ul{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+
+    #lista-nav {
+        margin-left: 10px;
+    }
+
+    #lista-nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        font-family: 'Exo', sans-serif;
+    }
+
+    /* CONFIGURACIÓN DE SECCIÓN PRINCIPAL */
+
+    .cont_presentacion {
+        position: relative;
+        text-align: center;
+    }
+
+    .cont_presentacion img {
+        width: 100%;
+        height: 90%;
+        opacity: 70%;
+    }
+
+    #seccion_principal .bienvenida .text_bienvenida p{
+        width: max-content;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, 210%);
+        color: #192a56;
+        font-size: 40px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #seccion_principal .bienvenida .text_bienvenida_BACK p{
+        width: max-content;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        color: #192a56;
+        font-size: 40px;
+        font-family: 'Quicksand', sans-serif;
+        background-color: #6ab04c;
+        padding: 40px;
+        border-radius: 40px;
+        opacity: 70%;
+    }
+
+    #seccion_principal .bienvenida .introduccion p{
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 160%);
+        width: max-content;
+        height: max-content;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .introduccion {
+        margin: 10px 100px 10px 100px;
+    }
+
+    #seccion_principal .bienvenida .introduccion_BACK p{
+        color: white;
+        background-color: #EA2027;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 160%);
+        width: max-content;
+        height: max-content;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+        opacity: 55%;
+    }
+
+    /* CONFIGURACIÓN DE SECCIÓN DESCRIPCIÓN */
+
+    #seccion_descripcion .contenedor_descripcion {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        /* position: relative; */
+    }
+
+    #seccion_descripcion {
+        align-items: center;
+    }
+    .contenedor_descripcion {
+        margin: 30px 40px 30px 40px;
+    }
+
+    #seccion_descripcion .contenedor_descripcion div p{
+        text-align: justify;
+        font-size: 25px;
+        background: rgba(254, 32, 32, 0.7);
+        padding: 40px;
+        border-radius: 20px;
+        font-family: 'Quicksand', sans-serif;
+        color: #c7ecee;
+    }
+
+    #seccion_descripcion .contenedor_descripcion .texto p{
+        margin-right: 20px;
+        background: rgba(48, 51, 107, 0.6);
+    }
+
+    #seccion_descripcion .contenedor_descripcion div {
+        margin-top: 70px;
+        margin-left: 90px;
+        margin-right: 90px;
+        display: flex;
+        flex-direction: row;
+        align-content: baseline;
+        align-items: center;
+        gap: 80px;
+    }
+
+    #seccion_descripcion .contenedor_descripcion div img {
+        border-radius: 40px;
+    }
+
+    #seccion_descripcion .contenedor_descripcion div #img1, #img3{
+        zoom: 50%;
+    }
+
+    #seccion_descripcion .contenedor_descripcion div #img2{
+        zoom: 70%;
+    }
+
+    /* CONFIGURACIÓN FOOTER */
+
+    #footer-conf {
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        background-color: #30336b;
+    }
+
+    #footer-conf .redes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 30%;
+        gap: 20%;
+    }
+
+    #footer-conf h2 {
+        font-family: 'Quicksand', sans-serif;
+        margin-left: 5%;
+        color: antiquewhite;
+    }
+
+    #footer-conf .redes div a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Exo', sans-serif;
+        font-size: 120%;
+    }
 }
 
 /* Ajustes adicionales para pantallas muy grandes (si es necesario) */
