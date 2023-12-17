@@ -148,13 +148,6 @@ body {
     opacity: 55%;
 }
 
-#seccion_principal .bienvenida .introduccion-mobile p {
-    display: none;
-}
-
-#seccion_principal .bienvenida .introduccion_BACK-mobile p {
-    display: none;
-}
 
 /* CONFIGURACIÓN DE SECCIÓN DESCRIPCIÓN */
 
@@ -465,7 +458,7 @@ body {
     }
 }
 
-@media only screen and (max-device-width: 1010px){
+@media only screen and (max-width: 760px){
     /* Ajustes para pantallas pequeñas */
 
     /* ... Ajustes para pantallas pequeñas ... */
@@ -536,7 +529,6 @@ body {
     }
 
     #seccion_principal .bienvenida .text_bienvenida p{
-        /* display: none; */
         width: max-content;
         position: absolute;
         top: 35%;
@@ -605,7 +597,7 @@ body {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -95%);
+        transform: translate(-50%, -160%);
         width: max-content;
         height: max-content;
         font-size: 14px;
@@ -621,7 +613,7 @@ body {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -95%);
+        transform: translate(-50%, -30%);
         width: max-content;
         height: max-content;
         font-size: 14px;
