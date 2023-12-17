@@ -465,7 +465,7 @@ body {
     }
 }
 
-@media only screen and (max-device-width: 800px) and (min-device-width:480){
+@media only screen and (max-device-width: 1010px){
     /* Ajustes para pantallas pequeñas */
 
     /* ... Ajustes para pantallas pequeñas ... */
