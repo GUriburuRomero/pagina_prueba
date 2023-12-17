@@ -465,7 +465,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 800px) and (orientation: portrait){
+@media only screen and (max-device-width: 800px) and (min-device-width:480){
     /* Ajustes para pantallas pequeñas */
 
     /* ... Ajustes para pantallas pequeñas ... */
